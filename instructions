@@ -15,6 +15,7 @@ CocInstall coc-snippets coc-vimlsp coc-clangd coc-tsserver coc-json
 install bear: apt-get install bear
 $ bear -- make
 copy compile_command to root
+install clang format: apt-get install clang-format
 
 You need to open C/C++ files to run :CocCommand clangd.install
 
