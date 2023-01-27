@@ -12,6 +12,9 @@ Python server: > pip install python-language-server
 > pyls
 
 CocInstall coc-snippets coc-vimlsp coc-clangd coc-tsserver coc-json
+install bear: apt-get install bear
+$ bear -- make
+copy compile_command to root
 
 You need to open C/C++ files to run :CocCommand clangd.install
 
@@ -19,3 +22,5 @@ https://github-wiki-see.page/m/neoclide/coc.nvim/wiki/Using-coc-extensions
 it has tabnine
 
 tmux -2
+gd - go to definition
+gd + gv - go to definition with splits
