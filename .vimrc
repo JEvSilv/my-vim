@@ -214,7 +214,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'                                                                                                                                                                                                                                                                            
 Plug 'kien/ctrlp.vim'                                                                                                                                                                                                                                                                                            
 Plug 'majutsushi/tagbar'
-Plug 'kkoomen/vim-doge'
+Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 Plug 'godlygeek/tabular'                                                                                                                                                                                                                                                                                         
 " Any valid git URL is allowed                                                                                                                                                                                                                                                                                   
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'                                                                                                                                                                                                                                                      
